@@ -25,7 +25,7 @@ SJMP $
 
 
 
-
+;----------------DIV_16bit_by_7bit_subroutine---------------------
 DIV_16BIT_BY_7BIT:
 MOV R3,#17D ;rotate bits 17 times
 TRY_TO_DIVIDE:
@@ -79,5 +79,6 @@ MOV A,R4
 RLC A
 MOV R4,A
 RET
+;----------------DIV_16bit_by_7bit_subroutine---------------------
 
 END
