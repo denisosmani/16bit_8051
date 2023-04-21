@@ -28,7 +28,7 @@ SJMP $
 
 
 
-;----------------DIV_16bit_subroutine---------------------
+;----------------DIV_24bit_by_15bit_subroutine---------------------
 DIV_24BIT_BY_15BIT:
 MOV R7,#00H
 MOV R6,#00H
@@ -91,7 +91,7 @@ RLC A
 MOV R6,A
 
 RET
-;----------------/DIV_16bit_subroutine---------------------
+;----------------/DIV_24bit_by_15bit_subroutine---------------------
 
 ;----------------SUB_16bit_subroutine---------------------
 ;First number[MSB R0, LSB R1],
