@@ -56,7 +56,7 @@ ROTATE_16BITS:
 PUSH PSW ;store the CY
 ;must store the remainder before the last rotation of bits
 ;otherwise the remainder is lost
-CJNE R3,#01D, DONT_STORE_REMAINDER ; while comparing delets the CY flag
+CJNE R3,#01D, DONT_STORE_REMAINDER ; while comparing deletes the CY flag
 MOV A,R5 ;store remainder
 MOV R7,A
 DONT_STORE_REMAINDER:
