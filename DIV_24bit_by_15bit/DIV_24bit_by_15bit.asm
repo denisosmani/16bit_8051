@@ -12,10 +12,12 @@
 ;this subroutine uses the registers of Bank0
 ORG 0000H
 
+;first number
 MOV R0,#36H  ;3589000 D
 MOV R1,#0C3H
 MOV R2,#88H
 
+;second number (divisor)
 MOV R3,#64H ;25689 D
 MOV R4,#59H
 
