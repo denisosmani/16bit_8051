@@ -132,7 +132,7 @@ MOV R2,A
 ;this subroutine complements bits of R2 and R3,
 ;and stores the result in the same registers
 RET
-;----------------SECOND_COMPLEMENT_subroutine--------------------
+;----------------/SECOND_COMPLEMENT_subroutine--------------------
 
 ;----------------ADD_16bit_subroutine--------------------
 ADD_16BIT:
