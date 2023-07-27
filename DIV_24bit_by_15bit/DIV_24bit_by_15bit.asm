@@ -9,7 +9,7 @@
 
 ;This subroutine includes SUB_16BIT, CMP_16BIT, ADD_16BIT subroutines
 ;that you can check in other files
-;this subroutine uses the registers of Bank0
+;this subroutine uses only the registers of Bank0
 ORG 0000H
 
 ;first number
