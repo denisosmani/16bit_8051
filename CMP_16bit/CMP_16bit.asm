@@ -18,7 +18,7 @@ LCALL CMP_16BIT
 SJMP $
 
 
-
+;----------------CMP_16bit_subroutine---------------------
 CMP_16BIT:
 ;compare MSBs
 MOV A,R0 ;first_MSB
@@ -43,5 +43,6 @@ MOV A,#00H
 SETB ACC.2
 END_CMP_ROUTINE:
 RET
+;----------------/CMP_16bit_subroutine---------------------
 
 END
