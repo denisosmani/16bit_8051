@@ -3,8 +3,7 @@
 ;The result is stored in: [MSB R0, R1, LSB R2]
 ;Remainder isn't stored
 
-;This code doesn't work for a 16bit divisor because,
-;there are corner cases that don't fulfill the conditions
+;This code doesn't work for a 16bit divisor
 ;The divisor can be up to 15 bits, but not greater than 15 bits
 
 ;This subroutine includes SUB_16BIT, CMP_16BIT, ADD_16BIT subroutines
