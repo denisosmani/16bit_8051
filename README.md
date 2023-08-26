@@ -13,6 +13,7 @@ All subroutines use only the registers of BANK0. If the registers in BANK0 hold 
 2. **Execute Subroutine**: Call the desired subroutine for the math operation.
 3. **POP**: After the subroutine execution, pop the registers from the STACK to restore their original values.
 
+Best way to integrate these subroutines into your program is following the PUSH-EXECUTE-POP pattern.
 This approach ensures the integrity of your BANK0 registers throughout the subroutine execution.
 
 
