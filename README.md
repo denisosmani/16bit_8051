@@ -1,4 +1,5 @@
 # 16bit_math_operations_8051
+16bit math operations for 8051
 
 This project involves the implementation of subroutines for various 16-bit math operations, including addition, subtraction, multiplication, division, and comparison. These operations are executed on an 8-bit MCU.
 
